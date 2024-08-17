@@ -1,0 +1,24 @@
+body::before {
+    content: "";
+    display: block;
+    height: 10vh;
+}
+
+.home-header {
+    background-image: url("../public/images/scene.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.screen-blur {
+    background-color: rgba(0, 0, 0, 0.362);
+}
+
+.navbar-height {
+    height: 10vh;
+}
+
+.scroll-none::-webkit-scrollbar {
+    display: none;
+}
